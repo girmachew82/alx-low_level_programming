@@ -14,21 +14,21 @@ int main(void)
 	
 	for (i = '0'; i < '9'; i++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (j = i + 1; j <= '9'; j++)
 		{
-			for (q = '0'; q <= '9'; q++)
+			for (q = j + 1; q <= '9'; q++)
 			{
-				for(p = '1'; p <= '9'; p++)
+				for (p = '0'; p <= '9'; p++)
 				{
-					if (j != i)
-					{
+
+				
 						putchar(i);
 						putchar(j);
 						putchar(' ');
 						putchar(q);
 						putchar(p);
-				       		putchar(',');
-					}
+						putchar(',');
+				
 				}
 			}
 		}
