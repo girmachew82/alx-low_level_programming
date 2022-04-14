@@ -1,10 +1,12 @@
 #include "main.h"
 
-/** 
- * main - entry point 
- * @void no argument
- * Retuen 0
- * */
+/**
+ * main - entry point
+ *
+ * void - no argument
+ *
+ * Return : 0
+ */
 
 int main(void)
 {
@@ -16,6 +18,5 @@ int main(void)
 	{
 		_putchar(crs[c]);
 	}
-	_putchar('\n');
 	return (0);
 }
