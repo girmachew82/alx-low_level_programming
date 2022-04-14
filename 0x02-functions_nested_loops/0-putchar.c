@@ -7,7 +7,7 @@
  */ 
  int main(void)
 {
-	char pcr[] = '_putchar';
+	char pcr[] = "_putchar";
 	
 	int c;
 	
