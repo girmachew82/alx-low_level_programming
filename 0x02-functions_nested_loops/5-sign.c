@@ -6,8 +6,6 @@
  * @n: integer
  * Return: Return sign +, 0 or -1
  */
-
-
 int print_sign(int n)
 {
 	int number;
