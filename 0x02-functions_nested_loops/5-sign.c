@@ -1,28 +1,30 @@
 #include "main.h"
 
-/**                                                                     
- * print_sign - return sign                                             
- * @n: integer                                                          
- * Return: Return sign +, 0 or -1                                       
- */                                                                     
-int print_sign(int n)                                                   
-{                                                                       
-	int number;                                                     
-                                                                        
-        if (n > 0)                                                      
-        {                                                               
-        	_putchar('+');                                          
-		number = 1;                                             
-        }                                                               
-        else if (n == 0)                                                
-        {                                                               
-               _putchar('0');                                          
-               number = 0;                                             
-        }                                                               
-        else                                                            
-        {                                                               
-               _putchar('-');                                          
-               number = -1;                                            
-        }                                                               
-        return (number);                                                
-} 
+/**
+ * print_sign - Check sign
+ * @n: An input number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
+ */
+int print_sign(int n)
+{
+	int value;
+
+	if (n > 0)
+	{
+		value = 1;
+		_putchar('+');
+	}
+	else if (n == 0)
+	{
+		value = 0;
+		_putchar('0');
+	}
+	else
+	{
+		value = -1;
+		_putchar('-');
+	}
+
+	return (value);
+}
