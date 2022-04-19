@@ -2,7 +2,6 @@
 
 /**
  * print_sign - return sign 
- *
  * @n: integer
  * Return: Return sign +, 0 or -1
  */
