@@ -2,8 +2,8 @@
 
 /**
  * _islower - return 1 if lowercase alphabet and 0 otherwise
- * @c: take a character
- * Return : 0 for uppercase 1 for lowercase
+ * @c: haracter
+ * Return: 0 for uppercase 1 for lowercase
  */
 
 int _islower(int c)
