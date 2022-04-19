@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign -return sign 
+ * print_sign - return sign 
  *
- * @n: get input
- * Return : Return sign +, 0 or -1
+ * @n: integer
+ * Return: Return sign +, 0 or -1
  */
 
 
