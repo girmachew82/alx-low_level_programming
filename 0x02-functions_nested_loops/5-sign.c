@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_sign - return sign 
- *@n: get input
- *Return: -1, 1, 0
+ * print_sign-return sign
+ * @n: get input
+ * Return: -1, 1, 0
  */
 int print_sign(int n)
 {
