@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main-check 
+ * main - check
  * @void: no parameter
  * Return: 0
  */
