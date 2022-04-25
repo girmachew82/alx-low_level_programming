@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int t1 = 1, t2 =2, i;
+	int t1 = 1, t2 = 2, i;
 	long int  next  = t1 + t2;
 		
 	printf("%d, %d, ", t1, t2);
