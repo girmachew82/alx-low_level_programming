@@ -2,8 +2,8 @@
 
 /**
  * print_number - checks for checks for a digit (0 to 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * @n: an integer
+ * Return: nothing
  */
 void print_number(int n)
 {
